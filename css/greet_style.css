@@ -1,3 +1,68 @@
 body {
 	background-color: cornflowerblue;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Getting rid of default styling */
+textarea, input {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+
+.message-form {
+
+}
+
+.message-textarea, .message-submit {
+    vertical-align: bottom;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.message-textarea {
+    margin: 20px 30px 0px 30px;
+    width: 75%;
+    height: 576px;
+}
+
+.message-submit {
+	font-size: 20px;
+	background-color: white;
+	padding: 10px;
+	width: 100px;
+}
+
+.message-submit:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+/* Styling textarea's placeholders */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #4d4d4d;
+    font-size: 100px;
+    line-height: 0.9;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #4d4d4d;
+    font-size: 100px;
+    line-height: 0.9;
+   	opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #4d4d4d;
+    font-size: 100px;
+    line-height: 0.9;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #4d4d4d;
+    font-size: 100px;
+    line-height: 0.9;
 }

@@ -13,6 +13,7 @@ html, body {
 /* Toolbar items */
 .navbar-default .navbar-nav>li>a {
 	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	color: black;
 	margin: 2px 30px 0px 30px;
