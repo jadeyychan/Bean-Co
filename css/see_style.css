@@ -1,3 +1,17 @@
 body {
 	background-color: lightblue;
 }
+
+.wrapper {
+	display: inline-block;
+}
+
+.left {
+	background-color: orange;
+	display: inline-block;
+}
+
+.right {
+	background-color: yellow;
+	display: inline-block;
+}

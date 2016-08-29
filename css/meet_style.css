@@ -1,3 +1,67 @@
 body {
-	background-color: lightpink;
+	background-color: cornflowerblue;
+	font-family: 'Roboto', sans-serif;
 }
+
+.carousel-indicators li {
+	background-color: lightgray;
+	border: none;
+}
+
+.carousel-indicators .active {
+	background-color: darkgray;
+	border: none;
+}
+
+.item {
+	height: 93vh;
+	background-color: #f2f6f9;
+}
+
+.individual {
+	margin: 8% auto;
+	position: fixed;
+}
+
+.individual-pic {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+.individual-pic img {
+	float: right;
+	margin-right: 10%;
+}
+
+.individual-section {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	margin-top: 1.5%;
+}
+
+.individual-name {
+	font-size: 25px;
+	margin: 5px 0px 5px 0px;
+}
+
+.individual-bio {
+	font-size: 15px;
+	width: 60%;
+}
+
+.individual-footer {
+	margin: 10px 0px 10px 0px;
+	font-style: oblique;
+}
+
+.individual-links a {
+	color: cornflowerblue;
+	text-decoration: none;
+}
+
+.individual-links a:hover {
+	color: darkgray;
+}
+
