@@ -24,6 +24,21 @@ $( document ).ready(function() {
     } else {
       $('.right').show();      
     }
+
+    /* Navbar background coloring */
+    curIndex = $('div.active').index();
+    if (curIndex < see_index) {
+      nav_background_logo();
+    }
+    else if (curIndex == see_index) {
+      nav_background_see();
+    }
+    else if (curIndex > see_index && curIndex <= meet_index) {
+      nav_background_meet();
+    }
+    else if (curIndex == greet_index) {
+      nav_background_greet();
+    }
   });
 
   // if(screen.height > screen.width){
@@ -33,33 +48,50 @@ $( document ).ready(function() {
 });
 
 /* Toolbar background coloring functions */
-function nav_logo() {
+
+/* Navbar background color */
+function nav_background_logo() {
   $('.nav-meet').removeClass('navbar-background-meet');
   $('.nav-greet').removeClass('navbar-background-greet');
   $('.nav-see').removeClass('navbar-background-see');
+}
+
+function nav_background_see() {
+  $('.nav-meet').removeClass('navbar-background-meet');
+  $('.nav-greet').removeClass('navbar-background-greet');
+  $('.nav-see').addClass('navbar-background navbar-background-see');
+}
+function nav_background_meet() {
+  $('.nav-see').removeClass('navbar-background-see');
+  $('.nav-greet').removeClass('navbar-background-greet');
+  $('.nav-meet').addClass('navbar-background navbar-background-meet');
+}
+function nav_background_greet() {
+  $('.nav-see').removeClass('navbar-background-see');
+  $('.nav-meet').removeClass('navbar-background-meet');
+  $('.nav-greet').addClass('navbar-background navbar-background-greet');
+}
+
+/* Navbar to slide */
+function nav_logo() {
+  nav_background_logo();
   goToSlide(logo_index);
   return;
 }
 function nav_see() {
-  $('.nav-meet').removeClass('navbar-background-meet');
-  $('.nav-greet').removeClass('navbar-background-greet');
-  $('.nav-see').addClass('navbar-background navbar-background-see');
+  nav_background_see();
   goToSlide(see_index);
   return;
 }
 
 function nav_meet() {
-  $('.nav-see').removeClass('navbar-background-see');
-  $('.nav-greet').removeClass('navbar-background-greet');
-  $('.nav-meet').addClass('navbar-background navbar-background-meet');
+  nav_background_meet();
   goToSlide(meet_index);
   return;
 }
 
 function nav_greet() {
-  $('.nav-see').removeClass('navbar-background-see');
-  $('.nav-meet').removeClass('navbar-background-meet');
-  $('.nav-greet').addClass('navbar-background navbar-background-greet');
+  nav_background_greet();
   goToSlide(greet_index);
   return;
 }
