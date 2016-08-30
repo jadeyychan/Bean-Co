@@ -39,15 +39,15 @@ html, body {
 }
 
 .navbar-background-see, .nav-see:hover {
-	background-image: url('/img/temp/nav_see.png');
+	background-image: url('img/temp/nav_see.png');
 }
 
 .navbar-background-meet, .nav-meet:hover {
-	background-image: url('/img/temp/nav_meet.png');
+	background-image: url('img/temp/nav_meet.png');
 }
 
 .navbar-background-greet, .nav-greet:hover {
-	background-image: url('/img/temp/nav_greet.png');
+	background-image: url('img/temp/nav_greet.png');
 }
 
 /* Carousel Controls */
