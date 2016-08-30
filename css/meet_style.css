@@ -1,20 +1,4 @@
-body {
-	background-color: cornflowerblue;
-	font-family: 'Roboto', sans-serif;
-}
-
-.carousel-indicators li {
-	background-color: lightgray;
-	border: none;
-}
-
-.carousel-indicators .active {
-	background-color: darkgray;
-	border: none;
-}
-
-.item {
-	height: 93vh;
+.individual-background-color {
 	background-color: #f2f6f9;
 }
 

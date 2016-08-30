@@ -1,3 +1,4 @@
-.item {
-	height: 93vh;
+/* Hides the first left arrow */
+.left {
+	display: none;
 }
