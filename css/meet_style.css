@@ -37,10 +37,18 @@
 
 .individual-section {
 	display: inline-block;
-	float: right;
 	width: 50%;
 	margin-top: 1.5%;
 	margin: 8% auto;
+}
+
+.individual-section-left {
+	float: left;
+	margin-left: 20%;
+}
+
+.individual-section-right {
+	float: right;
 }
 
 .individual-name {
@@ -59,11 +67,11 @@
 }
 
 .individual-links a {
-	color: cornflowerblue;
+	color: darkgray;
 	text-decoration: none;
 }
 
 .individual-links a:hover {
-	color: darkgray;
+	color: lightgray;
 }
 
