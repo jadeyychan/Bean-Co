@@ -40,17 +40,17 @@ html, body {
 
 /* Bean-Co to beginning of path root? */
 .navbar-background-see, .nav-see:hover {
-	background-image: url('/Bean-Co/img/temp/nav_see.png');
+	background-image: url('/img/nav-bar/nav_see.png');
 	/*background-image: url('/img/temp/nav_see.png');*/
 }
 
 .navbar-background-meet, .nav-meet:hover {
-	background-image: url('/Bean-Co/img/temp/nav_meet.png');
+	background-image: url('/img/nav-bar/nav_meet.png');
 	/*background-image: url('/img/temp/nav_meet.png');*/
 }
 
 .navbar-background-greet, .nav-greet:hover {
-	background-image: url('/Bean-Co/img/temp/nav_greet.png');
+	background-image: url('/img/nav-bar/nav_greet.png');
 	/*background-image: url('/img/temp/nav_greet.png');*/
 }
 
