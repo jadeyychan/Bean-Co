@@ -49,7 +49,7 @@ html, body {
 }
 
 .fa-facebook-square {
-	font-size: 22px;
+	font-size: 24px;
 }
 
 /* Carousel Controls */
@@ -60,4 +60,8 @@ html, body {
 /* Each Item on page */
 .item {
 	height: 93vh;
+}
+
+.item > img {
+	width: 120%;
 }
