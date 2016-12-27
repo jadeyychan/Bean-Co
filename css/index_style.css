@@ -1,28 +1,24 @@
-/*.landing_page {
-	height: 100%;
-	width: auto;
-}*/
 
-.1_crowd {
+._crowd {
 	background-color: #f0c101;
 }
 
-.2_presentable {
+._presentable {
 	background-color: #00d4be;
 }
 
-.3_mothersday {
+._mothersday {
 	background-color: #f99cae;
 }
 
-.4_kitchen {
+._kitchen {
 	background-color: #e34a4c;
 }
 
-.5_lingo {
+._lingo {
 	background-color: #039bef;
 }
 
-.6_content {
+._content {
 	background-color: #5453d3;
 }
