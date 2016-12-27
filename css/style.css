@@ -13,9 +13,9 @@ html, body {
 /* Logo */
 .navbar-brand {
 	background: url('../img/logo.png') no-repeat;
-    background-size: 100px;
-    width: 100px;
-    transform: translate(25px, 15px);
+    background-size: 90px;
+    width: 90px;
+    transform: translate(25px, 17px);
 }
 
 .navbar-brand:hover {
