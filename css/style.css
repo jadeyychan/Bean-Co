@@ -37,14 +37,13 @@ html, body {
 	margin: 0;
 }
 
-.navbar-background, .navbar-default .navbar-nav>li>a:hover {
+.nav-meet, .nav-greet, .nav-fb {
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 /* Hover only appears when navbar is full, not with icon */
 @media only screen and (min-width: 768px) {
-
 
 	.nav-background-meet, .nav-meet:hover {
 		background-image: url('../img/nav-bar/nav_meet.png');
@@ -54,6 +53,7 @@ html, body {
 	.nav-background-greet, .nav-greet:hover{
 		background-image: url('../img/nav-bar/nav_greet.png');
 		background-size: 36px 36px;
+
 	}
 
 	.nav-fb:hover {
