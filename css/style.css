@@ -19,7 +19,7 @@ html, body {
 }
 
 .navbar-brand:hover {
-	background: url("../img/logo-hover.png") no-repeat;
+	opacity: 0.5;
 }
 
 /* Toolbar items */
