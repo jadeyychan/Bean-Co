@@ -1,32 +1,20 @@
 
-._crowd {
-	background-color: #f0c101;
-}
-
-._presentable {
-	background-color: #00d4be;
-}
-
-._mothersday {
-	background-color: #f99cae;
-}
-
-._kitchen {
-	background-color: #e34a4c;
-}
-
-._lingo {
-	background-color: #039bef;
-}
-
-._content {
-	background-color: #5453d3;
-}
-
 /* Text */
-.item-text {
-	font-size: 2.2vw;
-	transform: translate(100px, 100px);
+.content-text, .item-text {
+    font-size: 27px;
+    transform: translate(80px, 90px);
+    width: 65%;
+    z-index: 5;
+}
+
+.lingo-text {
+	background-color: #039bef;
+	padding: 30px;
+	transform: translate(100px, 90px);
+}
+
+.mothersday-text {
+	position: absolute;
 }
 
 .item-text-main {
@@ -37,3 +25,290 @@
 	color: white;
 	font-style: italic;	
 }
+
+/* Slide 0 */
+.crowd {
+	background-color: #f0c101;
+}
+
+.crowd-yellow-hand {
+	position: absolute;
+	width: 150px;
+	top: 0px;
+	right: 120px;
+    z-index: 2;
+}
+
+.crowd-figures-left {
+    position: absolute;
+    bottom: -50px;
+    right: 250px;
+    width: 1000px;
+}
+
+.crowd-figures-right {
+	position: absolute;
+	bottom: 0px;
+	right: 100px;
+	width: 250px;
+	z-index: 1;
+}
+
+/* Slide 1 */
+.presentable {
+	background-color: #00d4be;
+}
+
+.presentable_cyan {
+    width: 38%;
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+}
+
+/* Slide 2 */
+.mothersday {
+	background-color: #f99cae;
+}
+
+.mothersday-swanbabies {
+	width: 55%;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    z-index: 2;
+}
+
+.mothersday-swanmom {
+    width: 650px;
+    position: absolute;
+    bottom: -80px;
+    right: -150px;
+}
+
+/* Slide 3 */
+.kitchen {
+	background-color: #e34a4c;
+}
+
+.kitchen-dish1 {
+	position: absolute;
+	width: 20%;
+   /*transform: translate(60%, 80%);*/
+   transform: translate(60%, 160px);
+
+}
+
+.kitchen-dish2 {
+	position: absolute;
+    width: 18%;
+    /*transform: translate(185%, 75%);*/
+    transform: translate(185%, 275px);
+}
+
+.kitchen-dish3 {
+	position: absolute;
+	width: 13%;
+    transform: translate(400%, 150px);
+}
+
+.kitchen-dish4 {
+	position: absolute;
+    width: 25%;
+    transform: translate(265%, 315px);
+}
+
+/* Slide 4 */
+.lingo {
+	background-color: #039bef;
+	background-image: url("../img/homepage/4/blue-bg1.png");
+	background-size: 90%;	
+}
+
+/* Slide 5 */ 
+.content {
+	background-color: #5453d3;    
+}
+
+.content_purple {
+	min-width: 1200px;
+	position: absolute;
+	bottom: 30px;
+	left: 0px;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.content-text, .item-text {
+		font-size: 22px;
+	    transform: translate(60px, 80px);
+	}
+
+
+	/* Slide 0 */
+	.crowd {
+		background-color: cornflowerblue;
+	}
+
+/*	.crowd-yellow-hand {
+		position: absolute;
+		width: 150px;
+		top: 0px;
+		right: 200px;
+	    z-index: 2;
+	}
+
+	.crowd-figures-left {
+		position: absolute;
+		bottom: -40px;
+		right: 325px;
+		width: 900px;
+	}
+
+	.crowd-figures-right {
+		position: absolute;
+		bottom: 0px;
+		right: 175px;
+		width: 250px;
+		z-index: 1;
+	}*/
+
+	/* Slide 1 */
+	.presentable_cyan {
+		width: 380px;
+	    bottom: -60px;
+	}
+
+	/* Slide 2 */
+	.mothersday-swanbabies {
+        width: 55%;
+	    min-width: 400px;
+	}
+
+	.mothersday-swanmom {
+        min-width: 650px;
+	    left: 50%;
+	}
+
+	/* Slide 3 */
+	.kitchen-dish1 {
+		position: absolute;
+		width: 20%;
+	   /*transform: translate(60%, 80%);*/
+	   transform: translate(70%, 110px);
+
+	}
+
+	.kitchen-dish3 {
+	    position: absolute;
+    	width: 18%;
+    	transform: translate(150%, 275px);
+	}
+
+	.kitchen-dish2 {
+	    position: absolute;
+    	width: 18%;
+    	transform: translate(275%, 125px);
+	}
+
+	.kitchen-dish4 {
+		position: absolute;
+	    width: 25%;
+    	transform: translate(265%, 310px);
+	}
+
+	/* Slide 4 */ 
+	.lingo {
+		background-size: 110%;	
+	}
+
+	.lingo-text {
+		padding: 60px 40px 50px 50px;
+		transform: translate(0px, 0px);
+		width: 100%;
+	}
+
+	/* Slide 5 */ 
+	.content_purple {
+		min-width: 1000px;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+	.content-text, .item-text {
+        font-size: 22px;
+	    transform: translate(40px, 60px);
+	    width: 85%;
+	}
+
+	/* Slide 1*/
+	.presentable_cyan {
+	    width: 80%;
+	}
+
+	/* Slide 2 */
+	.mothersday-swanbabies {
+	    left: -10px;
+	    bottom: -20px;
+	    min-width: 350px
+	}
+
+	.mothersday-swanmom {
+
+	}
+
+	/* Slide 3 */
+	.kitchen-dish1 {
+		position: absolute;
+	    width: 40%;
+	    transform: translate(30%, 90px);
+	}
+
+	.kitchen-dish3 {
+	    position: absolute;
+    	width: 25%;
+    	transform: translate(60%, 285px);
+	}
+
+	.kitchen-dish2 {
+		position: absolute;
+	    width: 28%;
+	    transform: translate(210%, 130px);
+	}
+
+	.kitchen-dish4 {
+	    position: absolute;
+    	width: 55%;
+    	transform: translate(90%, 310px);
+	}
+
+	/* Slide 4 */ 
+	.lingo {
+		background-size: 180%;	
+	}
+
+	.lingo-text {
+		transform: translate(0px, 0px);
+		width: 100%;
+	}
+
+	/* Slide 5 */ 
+	.content_purple {
+		min-width: 800px;
+	}
+
+}
+
+
+
