@@ -58,7 +58,7 @@
 	background-color: #00d4be;
 }
 
-.presentable_cyan {
+.presentable-cyan {
     width: 38%;
     position: absolute;
     bottom: -50px;
@@ -120,7 +120,7 @@
 /* Slide 4 */
 .lingo {
 	background-color: #039bef;
-	background-image: url("../img/homepage/4/blue-bg1.png");
+	background-image: url("../img/homepage/4/blue-bg.png");
 	background-size: 90%;	
 }
 
@@ -129,7 +129,7 @@
 	background-color: #5453d3;    
 }
 
-.content_purple {
+.content-purple {
 	min-width: 1200px;
 	position: absolute;
 	bottom: 30px;
@@ -153,14 +153,10 @@
 	.crowd-text {
 		transform: translate(60px, 250px);
 		font-size: 22px;
-	
+		width: 85%;	
 	}
 
 	/* Slide 0 */
-/*	.crowd {
-		background-color: cornflowerblue;
-	}*/
-
 	.crowd-yellow-hand {
 	    position: absolute;
 	    width: 13%;
@@ -187,7 +183,7 @@
 	}
 
 	/* Slide 1 */
-	.presentable_cyan {
+	.presentable-cyan {
 		width: 380px;
 	    bottom: -60px;
 	}
@@ -242,7 +238,7 @@
 	}
 
 	/* Slide 5 */ 
-	.content_purple {
+	.content-purple {
 		min-width: 1000px;
 	}
 }
@@ -288,7 +284,7 @@
 	}
 
 	/* Slide 1*/
-	.presentable_cyan {
+	.presentable-cyan {
 	    width: 80%;
 	}
 
@@ -339,7 +335,7 @@
 	}
 
 	/* Slide 5 */ 
-	.content_purple {
+	.content-purple {
 		min-width: 800px;
 	}
 }
