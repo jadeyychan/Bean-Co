@@ -1,10 +1,24 @@
-/* Text */
-.content-text, .item-text {
+/*************************** TEXT ***************************/
+
+/* Standard */
+
+.item-text {
     font-size: 27px;
     transform: translate(80px, 90px);
     width: 65%;
     z-index: 5;
 }
+
+.item-text-main {
+	font-weight: bold;
+}
+
+.item-text-sub {
+	color: white;
+	font-style: italic;	
+}
+
+/* Specialized */
 
 .lingo-text {
 	background-color: #039bef;
@@ -16,14 +30,7 @@
 	position: absolute;
 }
 
-.item-text-main {
-	font-weight: bold;
-}
-
-.item-text-sub {
-	color: white;
-	font-style: italic;	
-}
+/*************************** Slides ***************************/
 
 /* Slide 0 */
 .crowd {
@@ -94,7 +101,8 @@
 	position: absolute;
 	width: 20%;
    /*transform: translate(60%, 80%);*/
-   transform: translate(60%, 160px);
+   transform: translate(60%, 160px); 
+   /* percentage followed by px is intentional due to resizing */
 
 }
 
@@ -136,16 +144,11 @@
 	left: 0px;
 }
 
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
-}
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-	.content-text, .item-text {
+	/* Text */
+	.item-text {
 		font-size: 22px;
 	    transform: translate(60px, 80px);
 	}
@@ -154,6 +157,12 @@
 		transform: translate(60px, 250px);
 		font-size: 22px;
 		width: 85%;	
+	}
+
+	.lingo-text {
+		padding: 60px 40px 50px 50px;
+		transform: translate(0px, 0px);
+		width: 100%;
 	}
 
 	/* Slide 0 */
@@ -208,16 +217,16 @@
 
 	}
 
-	.kitchen-dish3 {
-	    position: absolute;
-    	width: 18%;
-    	transform: translate(150%, 275px);
-	}
-
 	.kitchen-dish2 {
 	    position: absolute;
     	width: 18%;
     	transform: translate(275%, 125px);
+	}
+
+	.kitchen-dish3 {
+	    position: absolute;
+    	width: 18%;
+    	transform: translate(150%, 275px);
 	}
 
 	.kitchen-dish4 {
@@ -231,12 +240,6 @@
 		background-size: 110%;	
 	}
 
-	.lingo-text {
-		padding: 60px 40px 50px 50px;
-		transform: translate(0px, 0px);
-		width: 100%;
-	}
-
 	/* Slide 5 */ 
 	.content-purple {
 		min-width: 1000px;
@@ -246,7 +249,8 @@
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
-	.content-text, .item-text {
+	/* Text */
+	.item-text {
         font-size: 22px;
 	    transform: translate(40px, 60px);
 	    width: 85%;
@@ -256,6 +260,11 @@
 		transform: translate(40px, 250px);
 		width: 85%;
 		font-size: 22px;	
+	}
+
+	.lingo-text {
+		transform: translate(0px, 0px);
+		width: 100%;
 	}
 
 	/* Slide 0 */
@@ -295,10 +304,6 @@
 	    min-width: 350px
 	}
 
-	.mothersday-swanmom {
-
-	}
-
 	/* Slide 3 */
 	.kitchen-dish1 {
 		position: absolute;
@@ -306,16 +311,16 @@
 	    transform: translate(30%, 90px);
 	}
 
-	.kitchen-dish3 {
-	    position: absolute;
-    	width: 25%;
-    	transform: translate(60%, 285px);
-	}
-
 	.kitchen-dish2 {
 		position: absolute;
 	    width: 28%;
 	    transform: translate(210%, 130px);
+	}
+
+	.kitchen-dish3 {
+	    position: absolute;
+    	width: 25%;
+    	transform: translate(60%, 285px);
 	}
 
 	.kitchen-dish4 {
@@ -327,11 +332,6 @@
 	/* Slide 4 */ 
 	.lingo {
 		background-size: 180%;	
-	}
-
-	.lingo-text {
-		transform: translate(0px, 0px);
-		width: 100%;
 	}
 
 	/* Slide 5 */ 
