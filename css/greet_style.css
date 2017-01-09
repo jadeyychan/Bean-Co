@@ -15,6 +15,10 @@ textarea, input {
     width: 100%;
 }
 
+.message-animate {
+    background-color: white;
+}
+
 .message-textarea, .message-submit {
     vertical-align: bottom;
     display: inline-block;
@@ -31,9 +35,13 @@ textarea, input {
 .message-textarea {
     width: 100%;
     height: calc(100vh - 52px);
-    /* 50 from the navbar, and 3px border * 2 */
-    border: solid 3px gray;
+    border: solid 3px #606060;
     z-index: 4;
+
+    color: #606060;
+    font-size: 8vw;
+    padding: 40px;
+    line-height: 1;
 }
 
 .message-submit {
@@ -56,24 +64,47 @@ textarea, input {
 
 /* Styling textarea's placeholders */
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #4d4d4d;
+    color: #606060;
     font-size: 8vw;
-    line-height: 0.9;
+    line-height: 0.95;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #4d4d4d;
+    color: #606060;
     font-size: 8vw;
-    line-height: 0.9;
+    line-height: 0.95;
    	opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #4d4d4d;
+    color: #606060;
     font-size: 8vw;
-    line-height: 0.9;
+    line-height: 0.95;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #4d4d4d;
+    color: #606060;
     font-size: 8vw;
-    line-height: 0.9;
+    line-height: 0.95;
+}
+
+/* For animation's blinking cursor */
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

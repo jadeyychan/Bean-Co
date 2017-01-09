@@ -26,6 +26,11 @@
     <link rel="stylesheet" href="css/index_style.css">
     <link rel="stylesheet" href="css/greet_style.css">
     <script src="js/index_script.js"></script>
+
+    <!-- Animated typing library -->
+    <script src="js/lib/typed.min.js"></script>
+    <script src="js/greet_script.js"></script>
+
   </head>
   <body>
 
@@ -57,8 +62,9 @@
 
 			<div class="item message-form">
 				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-					<textarea class="message-textarea" type="text" name="You want to tell us..." placeholder="Greetings? Enquiries? Collaborations? Leave a message!" onfocus="this.placeholder = ''"/></textarea>
-					<!-- <input class="message-submit" type="submit" value="send"> -->
+					<div class="message-animate message-textarea" style="white-space:pre">
+					</div>
+					<textarea class="message-textarea" type="text" name="You want to tell us..."/></textarea>
 					<div class="message-submit">
 						<input type="submit" name="" value="">
 					</div>
