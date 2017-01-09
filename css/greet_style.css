@@ -20,35 +20,38 @@ textarea, input {
     display: inline-block;
     font-family: 'Lato', sans-serif;
 }
-
+/*
 @media only screen and (max-width: 768px) { 
     .message-textarea, .message-submit {
         display: block;
     }
 
-/*    .message-submit {
-        float: right;
-    }*/
-
-}
+}*/
 
 .message-textarea {
-    margin: 40px 10px 0px 40px;
-    /*margin-top: 40px;*/
-    width: 60%;
-    height: 480px;
+    width: 100%;
+    height: calc(100vh - 52px);
+    /* 50 from the navbar, and 3px border * 2 */
+    border: solid 3px gray;
+    z-index: 4;
 }
 
 .message-submit {
-	font-size: 20px;
-	background-color: white;
-	padding: 10px;
-	width: 100px;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
 }
 
-.message-submit:hover {
-    background-color: lightgray;
-    color: white;
+.message-submit input {
+    background:url(../img/greet/send-button/grey-button.svg) no-repeat;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+
+.message-submit input:hover {
+    background:url(../img/greet/send-button/cyan-button.svg) no-repeat;
 }
 
 /* Styling textarea's placeholders */
