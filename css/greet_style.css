@@ -21,7 +21,6 @@ textarea, input {
 .message-box {
     border: solid 3px #606060;
     color: #606060;
-    font-size: 8vw;
     height: calc(100vh - 50px);
     width: 100%;
 }
@@ -29,6 +28,7 @@ textarea, input {
 .message-animate-container {
     margin: 40px;
     line-height: 1.1;
+    font-size: 8vw;
 }
 
 .message-animate {
@@ -43,12 +43,13 @@ textarea, input {
     padding: 40px;
     height: calc(100vh - 60px);
     width: 100%;
+    font-size: 4vw;
 }
 
 .message-submit {
     position: absolute;
-    bottom: 50px;
-    right: 65px;
+    bottom: 35px;
+    right: 60px;
     pointer: cursor;
 }
 
@@ -75,7 +76,7 @@ textarea, input {
     color: #606060;
     font-size: 8vw;
     line-height: 0.95;
-   	opacity:  1;
+    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color: #606060;
@@ -87,6 +88,17 @@ textarea, input {
     font-size: 7vw;
     line-height: 0.95;
 }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) { 
+
+}
+
 
 /* Blinking cursor animation */
 .typed-cursor {

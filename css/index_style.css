@@ -109,7 +109,6 @@
 .kitchen-dish2 {
 	position: absolute;
     width: 18%;
-    /*transform: translate(185%, 75%);*/
     transform: translate(185%, 275px);
 }
 

@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	/* Typing animation */
 	$('.message-animate').typed({
-		strings: ["Greetings? ^300\nEnquiries? ^300\nCollaborations? ^300\nLeave us a message."],
+		strings: ["Greetings? ^200\nEnquiries? ^200\nCollaborations? ^200\nLeave us a message."],
       	typeSpeed: 3
     });
 
