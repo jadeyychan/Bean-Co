@@ -10,51 +10,53 @@ textarea, input {
     resize: none;
 }
 
+.hidden {
+    display: none;
+}
+
 .message-form {
-    background-color: black;
     width: 100%;
+}
+
+.message-box {
+    border: solid 3px #606060;
+    color: #606060;
+    font-size: 8vw;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.message-animate-container {
+    margin: 40px;
+    line-height: 1.1;
 }
 
 .message-animate {
-    background-color: white;
+    width: 80%;
+    white-space: pre;
 }
 
-.message-textarea, .message-submit {
+.message-textarea {
     vertical-align: bottom;
     display: inline-block;
     font-family: 'Lato', sans-serif;
-}
-/*
-@media only screen and (max-width: 768px) { 
-    .message-textarea, .message-submit {
-        display: block;
-    }
-
-}*/
-
-.message-textarea {
-    width: 100%;
-    height: calc(100vh - 52px);
-    border: solid 3px #606060;
-    z-index: 4;
-
-    color: #606060;
-    font-size: 8vw;
     padding: 40px;
-    line-height: 1;
+    height: calc(100vh - 60px);
+    width: 100%;
 }
 
 .message-submit {
     position: absolute;
-    bottom: 30px;
-    right: 50px;
+    bottom: 50px;
+    right: 65px;
+    pointer: cursor;
 }
 
 .message-submit input {
     background:url(../img/greet/send-button/grey-button.svg) no-repeat;
     cursor: pointer;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: none;
 }
 
@@ -82,16 +84,18 @@ textarea, input {
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #606060;
-    font-size: 8vw;
+    font-size: 7vw;
     line-height: 0.95;
 }
 
-/* For animation's blinking cursor */
+/* Blinking cursor animation */
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+    display: inline;
+    font-size: 8vw;
 }
 @keyframes blink{
     0% { opacity:1; }

@@ -1,16 +1,14 @@
 $(document).ready(function() {
 
-	$(function(){
-		$('.message-animate').typed({
-	      strings: ["Greetings? ^300\nEnquiries? ^300\nCollaborations? ^300\nLeave us a message."],
-	      typeSpeed: 0
-	    });
-	});
+	/* Typing animation */
+	$('.message-animate').typed({
+		strings: ["Greetings? ^300\nEnquiries? ^300\nCollaborations? ^300\nLeave us a message."],
+      	typeSpeed: 3
+    });
 
-	$(".message-animate").on("click", function() {
+	/* Show textbox */
+	$(".message-animate-container").on("click", function() {
 		this.remove();
-		$(".typed-cursor").remove();
-		$(".message-textarea").focus();
-	});
+		$(".message-textarea").removeClass("hidden");
+	})
 });
-

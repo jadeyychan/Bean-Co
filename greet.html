@@ -28,7 +28,7 @@
     <script src="js/index_script.js"></script>
 
     <!-- Animated typing library -->
-    <script src="js/lib/typed.min.js"></script>
+    <script src="js/lib/typed.min.js"> </script>
     <script src="js/greet_script.js"></script>
 
   </head>
@@ -60,15 +60,18 @@
     	</div><!-- /.container-fluid -->
   	</nav>
 
-			<div class="item message-form">
-				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-					<div class="message-animate message-textarea" style="white-space:pre">
-					</div>
-					<textarea class="message-textarea" type="text" name="You want to tell us..."/></textarea>
-					<div class="message-submit">
-						<input type="submit" name="" value="">
-					</div>
-				</form>
+	<div class="item message-form">
+		<form action="mailto:jadeyychan@gmail.com" method="post" enctype="text/plain">
+			<div class="message-box">
+				<div class="message-animate-container">
+					<span class="message-animate"></span>
+				</div>
+				<textarea class="message-textarea hidden" name="example" placeholder="" autofocus> </textarea>
 			</div>
+			<div class="message-submit">
+				<input type="submit" value="">
+			</div>
+		</form>
+	</div>
   </body>
 </html>
