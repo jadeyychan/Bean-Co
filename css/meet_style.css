@@ -2,20 +2,55 @@
 	background-color: #f2f6f9;
 }
 
-.lynette {
-	background-image: url('../img/meet/lynette.jpg');
+/*.lynette {
+	background-color: #f2f6f9;
 }
 
 .jade {
-	background-image: url('../img/meet/jade.jpg');
+	background: url('../img/meet/jade.jpg') no-repeat;
 }
 
 .kristie {
-	background-image: url('../img/meet/kristie.jpg');
+	background: url('../img/meet/kristie.jpg') no-repeat;
 }
 
 .annie {
-	background-image: url('../img/meet/annie.jpg');
+	background: url('../img/meet/annie.jpg') no-repeat;
+}
+*/
+
+/* Lynette */
+.lyn-portrait {
+    position: absolute;
+    top: 50px;
+    width: 250px;
+    left: 22%;
+    z-index: -1;
+}
+
+.lyn-illustration {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -2;
+}
+
+/* Jade */
+.jad-portrait {
+   	position: absolute;
+    top: 60px;
+    width: 150px;
+    left: 25%;
+    z-index: -1;
+}
+
+.jad-illustration {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 40%;
+    z-index: -2;
 }
 
 .individual {
@@ -76,5 +111,66 @@
 
 .individual-links a:hover {
 	color: lightgray;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.lyn-portrait {
+	    left: 14%;
+	}
+
+	.jad-portrait {
+		left: 20%;
+	}
+	.jad-illustration {
+	    position: absolute;
+	    top: 80px;
+	    left: 6%;
+	    width: 40%;
+	    z-index: -2;
+	}
+
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 768px) { 
+
+	.individual {
+		color: white;
+	}
+
+	.individual-section {
+       display: inline-block;
+	    width: 100%;
+	    background-color: rgba(0, 0, 0, 0.6);
+	    height: 100%;
+	    margin: 0;
+	    transform: translateY(200px);
+        padding: 8% 8% 8% 17%;
+	}
+
+	.individual-name {
+    	margin: 5px 0px 10px 0px;
+	}
+
+	.individual-bio {
+		font-size: 15px;
+		width: 90%;
+	}
+
+	.individual-links a {
+		color: white;
+	}
+
+	.jad-illustration {
+	    position: absolute;
+	    top: 10px;
+	    left: 10%;
+	    width: 70%;
+	    min-width: 400px;
+	    z-index: -2;
+	}
 }
 
