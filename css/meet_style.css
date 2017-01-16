@@ -53,6 +53,24 @@
     z-index: -2;
 }
 
+/* Kristie */
+.kri-portrait {
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    right: 25%;
+    z-index: -1;
+}
+
+/* Annie */
+.ann-portrait {
+	position: absolute;
+    top: 60px;
+    width: 250px;
+    left: 20%;
+    z-index: -1;
+}
+
 .individual {
 	position: fixed;
 	height: 100%;
@@ -131,6 +149,13 @@
 	    z-index: -2;
 	}
 
+	.kri-portrait {
+		right: 15%;
+	}
+
+	.ann-portrait {
+	    left: 15%;
+	}
 }
 
 
