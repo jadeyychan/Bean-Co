@@ -2,22 +2,9 @@
 	background-color: #f2f6f9;
 }
 
-/*.lynette {
-	background-color: #f2f6f9;
+.carousel-inner>.item>img, .group {
+	max-width: none;
 }
-
-.jade {
-	background: url('../img/meet/jade.jpg') no-repeat;
-}
-
-.kristie {
-	background: url('../img/meet/kristie.jpg') no-repeat;
-}
-
-.annie {
-	background: url('../img/meet/annie.jpg') no-repeat;
-}
-*/
 
 /* Lynette */
 .lyn-portrait {
