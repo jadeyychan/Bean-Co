@@ -4,6 +4,8 @@
 
 .carousel-inner>.item>img, .group {
 	max-width: none;
+	position: absolute;
+	margin: 0px;
 }
 
 /* Lynette */
