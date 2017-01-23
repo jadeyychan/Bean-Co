@@ -11,9 +11,9 @@
 /* Lynette */
 .lyn-portrait {
     position: absolute;
-    top: 50px;
-    width: 250px;
-    left: 22%;
+    top: 13%;
+    width: 215px;
+    left: 19%;
     z-index: -1;
 }
 
@@ -28,15 +28,15 @@
 /* Jade */
 .jad-portrait {
    	position: absolute;
-    top: 60px;
+    top: 13%;
     width: 150px;
-    left: 25%;
+    left: 21%;
     z-index: -1;
 }
 
 .jad-illustration {
     position: absolute;
-    top: 30px;
+    top: 6%;
     left: 100px;
     width: 40%;
     z-index: -2;
@@ -45,9 +45,9 @@
 /* Kristie */
 .kri-portrait {
     position: absolute;
-    top: 30px;
+    top: 8%;
     width: 250px;
-    right: 25%;
+    right: 18%;
     z-index: -1;
 }
 

@@ -5,6 +5,8 @@ greet_index = 12;
 
 $( document ).ready(function() {
 
+  consoleEasterEgg()
+
   // Correctly showing / hiding carousel arrows 
   $('.carousel').carousel({
     wrap: false
@@ -98,4 +100,9 @@ function nav_greet() {
 
 function goToSlide(number) {
   $("#myCarousel").carousel(number);
+}
+
+/* Easter Egg */
+function consoleEasterEgg() {
+
 }
