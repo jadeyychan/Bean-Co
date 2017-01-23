@@ -41,21 +41,21 @@
 	position: absolute;
 	width: 140px;
 	top: -10px;
-	right: 100px;
+	right: 11%;
     z-index: 2;
 }
 
 .crowd-figures-left {
     position: absolute;
     bottom: -60px;
-    right: 250px;
+    right: 22%;
     width: 900px;
 }
 
 .crowd-figures-right {
 	position: absolute;
 	bottom: -10px;
-	right: 80px;
+	right: 9%;
 	width: 250px;
 	z-index: 1;
 }
@@ -100,7 +100,6 @@
 .kitchen-dish1 {
 	position: absolute;
 	width: 20%;
-   /*transform: translate(60%, 80%);*/
    transform: translate(60%, 160px); 
    /* percentage followed by px is intentional due to resizing */
 
