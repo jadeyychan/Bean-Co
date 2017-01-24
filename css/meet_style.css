@@ -9,11 +9,10 @@
 }
 
 .group-greeting {
-	/*background-color: gray;*/
-	font-size: 2em;
+	font-size: 1.7em;
 	width: 70%;
 	margin: 0 auto;
-	transform: translateY(100px);
+	transform: translateY(90px);
 }
 
 /* Lynette */
