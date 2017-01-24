@@ -24,7 +24,7 @@ function updateOrientation() {
 		$(".group").css("width", "100%");
 		$(".group").css("height", "auto");
 	} else {
-		$(".group").css("height", "100%");
+		$(".group").css("height", "50%");
 		$(".group").css("width", "auto");
 	}
 }

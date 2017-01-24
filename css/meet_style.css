@@ -5,7 +5,15 @@
 .carousel-inner>.item>img, .group {
 	max-width: none;
 	position: absolute;
-	margin: 0px;
+	bottom: 0px;
+}
+
+.group-greeting {
+	background-color: gray;
+	font-size: 26px;
+	width: 70%;
+	margin: 0 auto;
+	transform: translateY(200%);
 }
 
 /* Lynette */
