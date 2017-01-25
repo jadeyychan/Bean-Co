@@ -1,7 +1,5 @@
 #Bean + Co.
 
----
-
 https://beanandco.co
 
 ---
@@ -12,14 +10,14 @@ Bean + Co. is a small creative studio run by [Lynette Bian](http://yuchunbian.xy
 ---
 
 ### TEAM
-This website was built as a collaboration between Lynette (who focused on design and wireframes), and myself (who worked on coded and prototyping). Together, we iterated over multiple designs, and tried different solutions to tackle issues as they arose. 
+This website was built as a collaboration between Lynette (who focused on design and wire-frames), and myself (who worked on coded and prototyping). Together, we iterated over multiple designs, and tried different solutions to tackle issues as they arose. 
 
 This was very much so a learning experience for both of us. Not only did we ensure that the website was visually attractive, but also focused on responsiveness across devices. While we're very happy with the site to date, it is still currently being improved, and updates are still coming in.
 
 ---
 
 ### TOOLS & TECHNOLOGIES
-This website was built in simple HTML, CSS, Javascript, and jQuery.
+This website was built in simple HTML, CSS, JavaScript, and jQuery.
 
 ---
 
