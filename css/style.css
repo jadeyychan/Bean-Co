@@ -84,6 +84,15 @@ span.icon.icon-prev, span.icon.icon-next {
 	margin: 0px 5px 0px 5px;
 }
 
+/* Colored carousel indicators for meet page */
+.colored-carousel-indicators li {
+	border: 1px solid #A9A9A9;
+}
+
+.carousel-indicators.colored-indicators .active {
+	background-color: #A9A9A9;
+}
+
 /* Each Item on page */
 .item {
 	height: calc(100vh - 50px);
