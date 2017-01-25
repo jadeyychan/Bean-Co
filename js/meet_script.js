@@ -3,6 +3,8 @@ IMG_HEIGHT = 1367;
 IMG_RATIO = IMG_HEIGHT / IMG_WIDTH;
 NAVBAR_HEIGHT = 50;
 
+HIDE_IMG_HEIGHT = 518;
+
 $(document).ready(function() {
 	updateSize();
 	$(window).resize(function() {
@@ -17,6 +19,8 @@ function updateSize() {
 
 	updateOrientation();
 	updateOffset();
+
+	heightCheck();
 }
 
 function updateOrientation() {
@@ -35,4 +39,10 @@ function updateOffset() {
 
 	diff < 0 ? (offset = diff) : (offset = 0);	
 	$(".group").css("left", (offset+"px"));	
+}
+
+function heightCheck() {
+	if (SCREEN_HEIGHT <= HIDE_IMG_HEIGHT) {
+		$(".group").remove();
+	}
 }

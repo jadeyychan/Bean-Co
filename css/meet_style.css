@@ -195,3 +195,15 @@
 	}
 }
 
+
+/* Shorter devices by height (ex. iphone 5) */ 
+@media only screen and (max-height : 568px) {
+
+	.individual-section {
+		transform: translateY(0px);
+
+	}
+
+
+}
+

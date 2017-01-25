@@ -9,9 +9,9 @@ $(document).ready(function() {
 
 /* Easter Egg */
 function easterEgg() {
-  console.log("We're so happy to have you with us! 🎉 🎉 🎉");
+  console.log("We're so happy to have you with us!");
+  console.log("🎉 🎉 🎉 🎉 🎉");
   console.log("😜 😜 😜 😜 😜");
   console.log("💩 💩 💩 💩 💩");
-  console.log("🙏🏼 🙏🏼 🙏🏼 🙏🏼 🙏🏼");
   console.log("✌🏼 ✌🏼 ✌🏼 ✌🏼 ✌🏼");
 }
