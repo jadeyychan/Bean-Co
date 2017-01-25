@@ -5,15 +5,13 @@ greet_index = 12;
 
 $(document).ready(function() {
   easterEgg();
-
- 
 });
 
 /* Easter Egg */
 function easterEgg() {
-  console.log("We're so happy to have you with us!");
-  console.unicorn("");
-  console.beer("");
-  console.pizza("");
-  console.poo("");
+  console.log("We're so happy to have you with us! 🎉 🎉 🎉");
+  console.log("😜 😜 😜 😜 😜");
+  console.log("💩 💩 💩 💩 💩");
+  console.log("🙏🏼 🙏🏼 🙏🏼 🙏🏼 🙏🏼");
+  console.log("✌🏼 ✌🏼 ✌🏼 ✌🏼 ✌🏼");
 }
