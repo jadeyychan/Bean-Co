@@ -1,6 +1,6 @@
 #Bean + Co.
 
-https://beanandco.co
+https://jadeyychan.github.io/Bean-Co 
 
 ---
 
